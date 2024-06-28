@@ -107,3 +107,28 @@ img {
 		margin-left: 10px;
 	}
 }
+
+
+/* sidenav */
+
+.sidenav {
+	padding: 30px;
+	grid-area: sidenav;
+	background-color: #fafbfc;
+}
+
+.sidenav li a {
+	padding: 20px;
+	display: block;
+	min-width: 60px;
+	max-width: 100px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin: 0 auto 30px auto;
+	transition: 0.1s ease-out;
+	box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+}
+
+.sidenav li a:hover {
+	background-color: #b07dfb;
+}
