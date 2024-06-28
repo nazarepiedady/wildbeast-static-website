@@ -89,3 +89,21 @@ img {
 .header li + li {
 	margin-left: 30px;
 }
+
+@media screen and (max-width: 760px) {
+	.header {
+		grid-template-columns: auto;
+	}
+
+	.logo {
+		margin-bottom: 20px;
+	}
+
+	.header nav a {
+		font-size: 1em;
+	}
+
+	.header li + li {
+		margin-left: 10px;
+	}
+}
