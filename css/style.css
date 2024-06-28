@@ -132,3 +132,8 @@ img {
 .sidenav li a:hover {
 	background-color: #b07dfb;
 }
+
+@keyframes seta {
+	from { right: 30px; }
+	to { right: 20px; }
+}
