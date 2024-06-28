@@ -137,3 +137,34 @@ img {
 	from { right: 30px; }
 	to { right: 20px; }
 }
+
+@media screen and (max-width: 760px) {
+	.sidenav {
+		padding: 0 30px;
+		overflow-x: auto;
+		position: relative;
+		-webkit-overflow-scrolling: touch;
+    	-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+
+	.sidenav::after {
+		top: 5px;
+		right: 30px;
+		content: '→';
+		position: absolute;
+		color: rgba(0, 0, 0, 0.3);
+		animation: seta 0.5s ease-in 0s infinite alternate;
+	}
+
+	.sidenav ul {
+		display: flex;
+	}
+
+	.sidenav li {
+		flex: 1 0 60px;
+	}
+
+	.sidenav li a {
+		margin: 30px 30px 30px 0;
+	}
+}
