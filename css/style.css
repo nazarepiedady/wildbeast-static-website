@@ -187,3 +187,7 @@ img {
 		grid-template-columns: auto;
 	}
 }
+
+.col-wide {
+	grid-column: 1 / -1;
+}
