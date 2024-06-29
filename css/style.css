@@ -181,3 +181,9 @@ img {
 	grid-area: content;
 	grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 600px) {
+	.content {
+		grid-template-columns: auto;
+	}
+}
