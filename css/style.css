@@ -304,3 +304,15 @@ p {
 .atributos li + li {
 	border-top: 2px solid #b07dfb;
 }
+
+/* anuncios */
+
+.anuncios {
+	display: grid;
+	padding: 30px;
+	grid-gap: 30px;
+	grid-area: anuncios;
+	align-content: start;
+	background-color: #fafbfc;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
