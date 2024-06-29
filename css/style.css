@@ -49,6 +49,7 @@ img {
 							 'content'
 							 'anuncios'
 							 'footer';
+		grid-template-columns: 100%;
 	}
 }
 
