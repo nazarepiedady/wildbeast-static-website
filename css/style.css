@@ -172,4 +172,12 @@ img {
 
 /* content */
 
-.content
+.content {
+	display: grid;
+	padding: 30px;
+	margin: 0 auto;
+	grid-gap: 30px;
+	max-width: 900px;
+	grid-area: content;
+	grid-template-columns: 1fr 1fr;
+}
