@@ -269,3 +269,9 @@ p {
 	background-color: #fff;
 	border-radius: 0 0 5px 5px;
 }
+
+.destaque {
+	color: #b07dfb;
+	max-width: 16em;
+	font-size: 0.875em;
+}
