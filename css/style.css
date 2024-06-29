@@ -200,3 +200,10 @@ img {
 .imagem-2 {
 	align-self: end;
 }
+
+p {
+	font-size: 1.2em;
+	line-height: 1.6;
+	color: rgba(0, 0, 0, 0.7);
+	letter-spacing: -0.005em;
+}
