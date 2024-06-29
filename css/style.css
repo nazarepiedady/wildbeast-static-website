@@ -230,3 +230,42 @@ p {
 	font-size: 0.875em;
 	font-style: italic;
 }
+
+/* caracteristicas */
+
+.caracteristicas {
+	display: flex;
+	align-items: flex-start;
+}
+
+.caracteristicas > div {
+	width: 80px;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+	background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.caracteristicas > div:first-child {
+	margin-right: 30px;
+}
+
+.caracteristicas span {
+	display: block;
+	color: #b07dfb;
+}
+
+.numero {
+	font-size: 3em;
+	line-height: 1;
+	margin: 10px auto;
+}
+
+.rotulo {
+	top: 2px;
+	padding: 5px 0;
+	position: relative;
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+}
