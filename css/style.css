@@ -213,3 +213,20 @@ p {
 .informacoes p + p {
 	margin-top: 30px;
 }
+
+/* titulo */
+
+.titulo {
+	color: #b07dfb;
+}
+
+.titulo h1 {
+	line-height: 1;
+	font-weight: 700;
+	font-size: 3.75em;
+}
+
+.titulo span {
+	font-size: 0.875em;
+	font-style: italic;
+}
