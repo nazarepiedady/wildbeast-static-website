@@ -275,3 +275,32 @@ p {
 	max-width: 16em;
 	font-size: 0.875em;
 }
+
+.citacao,
+.atributos {
+	padding: 30px;
+	align-self: start;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+	background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.citacao p {
+	color: #fff;
+	margin: 0 auto;
+	font-size: 1.5em;
+	max-width: 500px;
+	font-style: italic;
+	text-align: center;
+}
+
+.atributos li {
+	color: #fff;
+	padding: 15px;
+	font-size: 1.125em;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.atributos li + li {
+	border-top: 2px solid #b07dfb;
+}
